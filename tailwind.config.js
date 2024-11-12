@@ -3,7 +3,16 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   important: "#root",
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        cWhite: "#FAF7F0",
+        cBeige: "#D8D2C2",
+        cBrown: "#B17457",
+        cBlack: "#4A4947",
+        cSage: "#AAB396",
+        cPeach: "#FAEDCE"
+      }
+    },
     screens: {
       sm: "640px",
       // => @media (min-width: 640px) { ... }

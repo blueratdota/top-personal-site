@@ -1,9 +1,16 @@
 import { useState } from "react";
+import { Outlet } from "react-router-dom";
+import Header from "./components/built/Header";
+import Footer from "./components/built/Footer";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="bg-red-500">content</div>;
+  return (
+    <div className="min-h-screen bg-cWhite">
+      <Header></Header>
+      <Outlet></Outlet>
+      <Footer></Footer>
+    </div>
+  );
 }
 
 export default App;
