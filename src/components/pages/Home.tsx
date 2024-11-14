@@ -1,4 +1,5 @@
 import HorsePic from "../../assets/images/horse-large.jpg";
+import EcomSite from "../built/showcase/EcomSite";
 const Home = () => {
   return (
     <div className="pt-32">
@@ -16,14 +17,13 @@ const Home = () => {
           <img src={HorsePic} alt="profile-photo" />
         </div>
       </div>
-      <div className="max-w-[1024px] mx-auto my-20">
-        <h1 className="font-bold text-xl">Recent Projects & Work</h1>
-        <p>Here are a few of the things I've been working on lately</p>
-        <div className="grid grid-cols-2 gap-5 py-5">
-          <div className="h-72 bg-cyan-300">project 1</div>
-          <div className="h-72 bg-cyan-300">project 2</div>
-          <div className="h-72 bg-cyan-300">project 3</div>
-          <div className="h-72 bg-cyan-300">project 4</div>
+      <div className="bg-cBeige my-20">
+        <div className="max-w-[1024px] mx-auto py-10">
+          <h1 className="font-bold text-xl">Recent Projects & Work</h1>
+          <p>Here are a few of the things I've been working on lately</p>
+          <div className="p-10">
+            <EcomSite />
+          </div>
         </div>
       </div>
     </div>
