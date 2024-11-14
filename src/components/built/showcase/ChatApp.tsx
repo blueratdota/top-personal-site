@@ -5,9 +5,9 @@ import pagePhoto from "../../../assets/images/fanatec_bootleg/ecom_page.jpg";
 import Icon from "@mdi/react";
 import { mdiLightningBoltCircle, mdiReact, mdiTailwind } from "@mdi/js";
 
-const EcomSite = () => {
+const ChatApp = () => {
   return (
-    <div className="flex gap-5 h-[450px]">
+    <div className="flex flex-row-reverse gap-5 h-[450px]">
       <div className="basis-[30%] h-full overflow-hidden rounded-lg">
         <img
           className="h-full w-full object-cover object-top"
@@ -59,4 +59,4 @@ const EcomSite = () => {
     </div>
   );
 };
-export default EcomSite;
+export default ChatApp;

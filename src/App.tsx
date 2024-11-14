@@ -14,3 +14,7 @@ function App() {
 }
 
 export default App;
+
+// THINGS TO DO:
+// add toggle effect @ header, default home toggled
+// add button hover effects
